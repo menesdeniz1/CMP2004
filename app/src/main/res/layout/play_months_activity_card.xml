@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONTHS GAME"
+        android:layout_marginTop="50dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/season57"/>
+
+    <TextView
+        android:id="@+id/target_word_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Season: Given season"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/word_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  Months of the given season"
+        android:textColorHint="@color/black"
+        android:background="@drawable/bottom_background"
+        android:inputType="text"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+</LinearLayout>

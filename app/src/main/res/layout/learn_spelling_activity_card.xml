@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Heceleme nasıl yapılır?"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible">
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold|italic"
+            android:visibility="gone"
+            android:text="1- Türkçe sözcüklerde iki ünlü arasında bulunan ünsüz kendinden sonraki ünlü ile hece kurar: yi-ye-ce-ği, i-ne-ğe, kö-pe-ğe…"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold|italic"
+            android:visibility="gone"
+            android:text="2- Sözcük içinde yan yana gelen iki ünsüzden ilki kendinden önceki ünlüyle, ikincisi de sonraki ünlüyle hece kurar: yat-tı, bit-ki, yak-mak…"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold|italic"
+            android:visibility="gone"
+            android:text="3- Sözcük içinde yan yana gelen üç ünsüzden ilk ikisi kendinden önceki, üçüncüsü ise sonraki ünlüyle hece kurar: Türk-lük, Dert-li, tart-mak…"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/text_view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold|italic"
+            android:visibility="gone"
+            android:text="4- Birleşik yazılan kelimelerde de bu kurallara uyulur: ha-nı-me-li, il-ko-kul, baş-öğ-ret-men…"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/text_view6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold|italic"
+            android:visibility="gone"
+            android:text="5- Batı kökenli kelimeler, Türkçenin  hece yapısına göre hecelere ayrılır: band-rol, kont-rol, port-re..."
+            android:textColor="@color/white"/>
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/heceleme1"/>
+    </LinearLayout>
+
+</ScrollView>

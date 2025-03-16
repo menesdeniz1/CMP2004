@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PlayFollowBallCardActivity">
+
+        <ImageView
+            android:id="@+id/ballImageView"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ball"
+            android:contentDescription="ball"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="12dp"
+        android:text="@string/ballscore"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/bottom_background"
+        android:backgroundTint="#FF9800"
+        android:layout_alignParentEnd="true">
+    </TextView>
+
+</RelativeLayout>
